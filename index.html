@@ -3,91 +3,93 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <title>Resume by OuYuBin</title>
   </head>
 
   <body>
+    <div id="container">
+      <div class="inner">
 
-    <header>
-      <div class="container">
-        <h1>Resume</h1>
-        <h2></h2>
+        <header>
+          <h1>Resume</h1>
+          <h2></h2>
+        </header>
 
-        <section id="downloads">
-          <a href="https://github.com/OuYuBin/resume/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/OuYuBin/resume/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/OuYuBin/resume" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/OuYuBin/resume/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/OuYuBin/resume/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/OuYuBin/resume" id="view-on-github" class="button"><span>View on GitHub</span></a>
         </section>
-      </div>
-    </header>
 
-    <div class="container">
-      <section id="main_content">
-        <p>偶玉彬</p>
-<p>地址：上海</p>
-<p>电话：13816369042</p>
-<p>email：<a href="mailto:82324767@qq.com">82324767@qq.com</a></p>
+        <hr>
 
-        <p><b>技能摘要：</b></p>
-<li>掌握Java开发语言，了解Scala jvm语言。</li>
-<li>精通J2SE桌面开发，如Swing，SWT开发，编写Eclipse插件/RCP，IDEA IDE插件，Java桌面工具，应用。</li>
-<li>精通Eclipse EMF模型构建，GEF图形化工具开发，JFace界面开发。</li>
-<li>掌握J2EE开发，了解Spring容器框架，Spring MVC使用，myBatis orm框架，及模版引擎Velocity的使用配置。</li>
-<li>了解Android开发。</li>
-<li>熟悉类Unix操作系统，包括常用指令及部署配置。</li>
-<li>掌握各类软件开发配置工具，包括SVN，GIT等。</li>
-<li>具备良好的面相对象编程经验，遵从MVC的软件设计架构模式，从元数据模型出发，围绕模型开发接口，封装通用逻辑，提供扩展，编写基础界面框架，利用单例模式，工厂模式，组合模式，观察者模式，适配器模式等处理不同的业务场景。</li>
-<li>具备源码的调试能力，因长期从事工具类基础类软件开发，参考文档很少，基本是通过调试源码了解工作机制。</li>
+        <section id="main_content">
+          <p>偶玉彬
+地址：上海松江泗泾古楼公路348弄7号402
+电话：13816369042
+email：<a href="mailto:82324767@qq.com">82324767@qq.com</a></p>
 
-<p><b>项目经历:</b></p>
-<li>花旗银行小额支付系统</li>
-<p>花旗银行小额支付系统采用JAVA Swing开发，构建花旗银行内部小额支付系统人民币业务的流程管理系统，利用Java Swing完成各管理界面开发。</p>
+<p>技能摘要：
+λ  掌握Java开发语言，了解Scala jvm语言。
+λ  精通J2SE桌面开发，如Swing，SWT开发，编写Eclipse插件/RCP，IDEA IDE插件，Java桌面工具，应用。
+λ  精通Eclipse EMF模型构建，GEF图形化工具开发，JFace界面开发。
+λ  掌握J2EE开发，了解Spring容器框架，Spring MVC使用，myBatis orm框架，及模版引擎Velocity的使用配置。
+λ  了解Android开发
+λ  熟悉类Unix操作系统，包括常用指令及部署配置
+λ  掌握各类软件开发配置工具，包括SVN，GIT等
+λ  具备良好的面相对象编程经验，遵从MVC的软件设计架构模式，从元数据模型出发，围绕模型开发接口，封装通用逻辑，提供扩展，编写基础界面框架，利用单例模式，工厂模式，组合模式，观察者模式，适配器模式等处理不同的业务场景。
+λ  具备源码的调试能力，因长期从事工具类基础类软件开发，参考文档很少，基本是通过调试源码了解工作机制。</p>
 
-<li>Dorado 5 Studio </li>
-<p>DORADO STUDIO全面支持基于DORADO开发的各个环节的可视化配置与管理。如界面设计、可视化数据连接配置、可视化数据层定义、可视化控制层配置、国际化资源配置等。对Web应用以项目方式管理，同时可以完成对项目的编译、部署、测试的全过程，提供多种向导帮助用户快速上手。支持Java、JavaScript、XML、HTML、SQL的高亮编辑。支持对数据视图进行预览同时提供可视化的SQL的查询向导。主要定位于XML配置，可与Java开发工具（如MyEclipse等）配合使用。</p>
+<p>项目经历
+花旗银行小额支付系统
+花旗银行小额支付系统采用JAVA Swing开发，构建花旗银行内部小额支付系统人民币业务的流程管理系统，利用Java Swing完成各管理界面开发。
+Dorado 5 Studio 
+DORADO STUDIO全面支持基于DORADO开发的各个环节的可视化配置与管理。如界面设计、可视化数据连接配置、可视化数据层定义、可视化控制层配置、国际化资源配置等。对Web应用以项目方式管理，同时可以完成对项目的编译、部署、测试的全过程，提供多种向导帮助用户快速上手。支持Java、JavaScript、XML、HTML、SQL的高亮编辑。支持对数据视图进行预览同时提供可视化的SQL的查询向导。主要定位于XML配置，可与Java开发工具（如MyEclipse等）配合使用。</p>
 
-<li>Dorado5 NetBeans IDE plugin(Dorado5 NetBeans IDE插件)</li>
+<p>Dorado5 NetBeans IDE plugin(Dorado5 NetBeans IDE插件)
 Dorado5 NetBeans IDE plugin鼓励Dorado 5开发者以NetBeans为目标有秩序的开发DORADO项目。在DORADO项目开发过程中，对于从事多年的DORADO开发者而言，DORADO STUDIO（基于Swing技术）是当时唯一的开发工具，该工具是通过java2 Swing编写而成的，有着轻巧，高效等诸多优点，至今仍受到广大DORADO开发者的青睐。随着NetBeans的发布，开发了NetBeans DORADO Plugin，该插件是对DORADO STUDIO最大化的复用，并对原有的DORADO STUDIO的功能进行强化，同时还进行了诸多技术创新。在使用过程中，DORADO开发者不仅缩短了开发工具的学习周期，而且能够得到NetBeans IDE的全新体验。    </p>
 
-<li>Dorado5 IDE(Dorado5集成开发环境)</li>
-<p>采用Eclipse Plugin技术，以插件形式与Eclipse开发环境融为一体，依赖EMF构建静态模型，完成dorado5产品开发环境的开发，提供Dorado5前端页面编辑器，控件属性编辑，JavaScript事件编辑器，国际化资源文件编辑器，工程向导。利用GEF构建可视化编辑器。</p>
+<p>Dorado5 IDE(Dorado5集成开发环境)
+采用Eclipse Plugin技术，以插件形式与Eclipse开发环境融为一体，依赖EMF构建静态模型，完成dorado5产品开发环境的开发，提供Dorado5前端页面编辑器，控件属性编辑，JavaScript事件编辑器，国际化资源文件编辑器，工程向导。利用GEF构建可视化编辑器。</p>
 
-<li>Dorado7 IDE(Dorado7集成开发环境)</li>
-<p>Dorado IDE支持所见即所得的界面设计功能、提供展现数据模型的定义、JavaScript事件编辑器、国际化资源文件编辑器、工程向导等。Dorado的核心引擎提供持配置规则模型的导出功能，使IDE能够根据该规则模型调整自身的功能。让IDE和Dorado的核心引擎成为一个整体在协同运作。</p>
+<p>Dorado7 IDE(Dorado7集成开发环境)
+Dorado IDE支持所见即所得的界面设计功能、提供展现数据模型的定义、JavaScript事件编辑器、国际化资源文件编辑器、工程向导等。Dorado的核心引擎提供持配置规则模型的导出功能，使IDE能够根据该规则模型调整自身的功能。让IDE和Dorado的核心引擎成为一个整体在协同运作。</p>
 
-<li>SystemConfig RCP(系统配置RCP应用)</li>
-<p>SystemConfig RCP采用Eclipse RCP开发技术，根据期货交易自动化交易平台监视配置模型，依赖EMF构建动态元数据模型，完成半可视化配置编辑器的设计及开发，提供属性编辑，属性类型校验，配置文件序列化，反序列化，利用GEF开发表达式可视化编辑器，极大的提高了监控配置文件的编辑效率及准确性。</p>
+<p>SystemConfig RCP(系统配置RCP应用)
+SystemConfig RCP采用Eclipse RCP开发技术，根据期货交易自动化交易平台监视配置模型，依赖EMF构建动态元数据模型，完成半可视化配置编辑器的设计及开发，提供属性编辑，属性类型校验，配置文件序列化，反序列化，利用GEF开发表达式可视化编辑器，极大的提高了监控配置文件的编辑效率及准确性。</p>
 
-<li>CPIC Component Manager(太平洋保险组件库管理插件)</li>
-<p>CPIC Component Manager采用Eclipse Plugin技术，通过RESTful API接口方式获取组件库信息，提供向导利用JGit技术完成组件详细信息向当前项目的导入。</p>
+<p>CPIC Component Manager(太平洋保险组件库管理插件)
+CPIC Component Manager采用Eclipse Plugin技术，通过RESTful API接口方式获取组件库信息，提供向导利用JGit技术完成组件详细信息向当前项目的导入。</p>
 
-<li>RskyTech HMI RCP</li>
-<p>依托Eclipse RCP框架技术，负责设计开发航空总线测试RCP上位机，为中航电所定制开发RCP总线测试上位机人机交互平台。利用Eclipse EMF构建航空总线接口模型，生成模型代码，构建模型编辑器，利用GEF构建硬件连线可视化编辑器，根据总线测试业务，构建通讯框架及接口服务，利用CSStuido开源项目组织测试监视视图构建等等.</p>
+<p>RskyTech HMI RCP
+依托Eclipse RCP框架技术，负责设计开发航空总线测试RCP上位机，为中航电所定制开发RCP总线测试上位机人机交互平台。利用Eclipse EMF构建航空总线接口模型，生成模型代码，构建模型编辑器，利用GEF构建硬件连线可视化编辑器，根据总线测试业务，构建通讯框架及接口服务，利用CSStuido开源项目组织测试监视视图构建等等.</p>
 
-<li>HTTP Test Guard RCP(Http接口测试卫士)</li>
-<p>HTTP Test Guard采用Eclipse RCP开发技术，在Spring Tool Suite开发工具基础之上依赖自定义EMF模型生成测试URL配置文件，导入HTTP Test Guard RCP中完成WEB后端接口测试RESTful接口测试。</p>
+<p>HTTP Test Guard RCP(Http接口测试卫士)
+HTTP Test Guard采用Eclipse RCP开发技术，在Spring Tool Suite开发工具基础之上依赖自定义EMF模型生成测试URL配置文件，导入HTTP Test Guard RCP中完成WEB后端接口测试RESTful接口测试。</p>
 
-<li>Vector Icon Pack Inteiij IDEA IDE Plugin(矢量图标插件)</li>
-<p>Vector Icon Pack Inteiij IDEA IDE Plugin可以将IDEA IDE的常规图标替换成使用矢量图形进行显示，效果清晰细腻，虽然原始png图标其实已经支持视网膜屏的显示效果，但通过该插件提供的SDK还可以提高你的IDE的个性化效果，但自己能力时间有限，很多矢量图形都做不出来，所以先拿了些现有的常规矢量图标(其实就是一些字体库)顶一下，主要还是提供一个自定义扩展点，方便大家能够扩展出自己喜欢的样式。
+<p>Vector Icon Pack Inteiij IDEA IDE Plugin(矢量图标插件)
+Vector Icon Pack Inteiij IDEA IDE Plugin可以将IDEA IDE的常规图标替换成使用矢量图形进行显示，效果清晰细腻，虽然原始png图标其实已经支持视网膜屏的显示效果，但通过该插件提供的SDK还可以提高你的IDE的个性化效果，但自己能力时间有限，很多矢量图形都做不出来，所以先拿了些现有的常规矢量图标(其实就是一些字体库)顶一下，主要还是提供一个自定义扩展点，方便大家能够扩展出自己喜欢的样式。
 插件相关信息:<a href="https://plugins.jetbrains.com/plugin/7747?pr=idea">https://plugins.jetbrains.com/plugin/7747?pr=idea</a>
 同时也通过idea ide插件市场审核通过，在IDEA IDE里也可以找到哦。
-
-<li>Coding.net Plugin for JetBrains</li>
-<p>Coding.net Plugin 适用于 JetBrains 全系列开发工具。通过 Coding.net Plugin，您可以在 IDE 中直接 Clone Coding 账户中的 Git 仓库。
+Coding.net Plugin for JetBrains
+Coding.net Plugin 适用于 JetBrains 全系列开发工具。通过 Coding.net Plugin，您可以在 IDE 中直接 Clone Coding 账户中的 Git 仓库。
 插件地址：<a href="https://plugins.jetbrains.com/plugin/8565">https://plugins.jetbrains.com/plugin/8565</a>
+窗体顶端
+窗体底端</p>
 
-
-      <p><b>工作经历</b></p>
+<p>工作经历</p>
 
 <p>江苏锐天信息科技有限公司上海分公司</p>
 
-技术经理
-2016.03 — 至今</p>
+<p>技术经理
+2016.03 — 至今
 依托Eclipse RCP框架技术，负责设计开发航空总线测试RCP上位机整个框架搭建及开发工作，利用Eclipse EMF构建航空总线接口元数据模型(包括XSD定义，EMF模型定义)， 利用元数据模型构建实体对象，利用GEF定制开发可视化编辑器(包括数据图元绘制，数据图元连线绘制)，模型与图形间的序列化及反序列化实现，定制测试监视视图，包括仪表盘，XY折线图。柱状图等相关视图。</p>
 
 <p>上海千松互联网金融信息服务有限公司</p>
@@ -101,47 +103,47 @@ Dorado5 NetBeans IDE plugin鼓励Dorado 5开发者以NetBeans为目标有秩序
 <p>上海期货信息技术有限公司(外包)</p>
 
 <p>android软件开发工程师
-2014.02 — 2015.08</p>
+2014.02 — 2015.08
 负责开发期货交易系统监控平台Android应用，用来展现交易系统硬件网络当前使用情况，及相关历史数据的展现，利用列表视图，自定义饼视图，折线图等相关视图为期货交易系统监控人员提供实时数据展现，后台数据信息通过JNI方式获取，在该项目中利用Java技术的相关积累，迅速理解Android应用基本的开发模式及相关概念，并承担饼图折线图实时数据所有展现逻辑，并顺利上线，之后利用较为熟悉的Eclipse 插件及RCP技术，完成期货交易系统监控平台指标监控点配置管理工具的设计和开发工作。</p>
 
 <p>上海锐道信息技术有限公司</p>
 
 <p>IDE开发总监
-2007.01 — 2014.01</p>
+2007.01 — 2014.01
 担任公司产品Eclipse插件工具的研发工作，在7年时间中为公司开发两代IDE产品Dorado5 IDE，Dorado7 IDE及客户定制的相关插件产品，熟悉Eclipse的体系结构及相关设计模式,熟练使用SWT/JFace,EMF,GEF等对应技术进行插件开发，定制扩展点，片段项目开发等，对EFM整体设计思路及元模型构建，动态模型定义，序列化反序列化，与展现相关的提供器都有着清楚明确的认识，对GEF图形化展现工具理解透彻能够在实际场合熟练运用，通过多年开发设计分别完成针对Dorado 5及Dorado 7产品开发需要的高集成开发工具。至今仍在项目开发中发挥着作用。</p>
 
 <p>江苏新电信息技术有限公司上海分公司</p>
 
 <p>java开发工程师
-2006.01 — 2007.01</p>
+2006.01 — 2007.01
 使用java swing及pb开发花旗银行大，小额行内业务系统，并在花旗银行内部协调维护行内系统，保障上海及北京，深圳各分行系统能够正常稳定运行</p>
 
 <p>上海易保网络技术有限公司
 高级软件工程师
-2005.04 — 2006.04</p>
+2005.04 — 2006.04
 参加新加坡GEL项目，马来西亚AMA项目integration模块系统级设计，开发及文档的编写工作。使用oracel pl/sql和java为银行，保险公司等外部系统编写接口。</p>
 
 <p>上海中信信息发展有限公司</p>
 
 <p>软件工程师
-2003.07 — 2005.04</p>
+2003.07 — 2005.04
 1.参加上海市海事法院审判管理系统项目后期的数据归档及补录数据流程的Java和Jsp代码的编写工作，并担当后期开发小组负责人，使该项目顺利收尾结束。 
 2.在上海市静安区审计局审计流程管理系统及OA系统项目中使用JBuilder编写审计项目管理模块的Java和Jsp代码，在项目后期协助OA模块小组设计审计廉政模块和人事考核模块表结构，并编写工作流程，在该项目中使用Struts1.0框架技术。 
 3.在上海市安监局工作管理系统项目中使用Eclipse和MyEclipse及相关插件编写组织结构树，上传下载，业务查询等公共模块的Java，Jsp，HTML，DHTML，JavaScript，XML代码，在该项目中使用Struts1.0框架技术，数据库使用Oracle9i。
 4.在随后的上海市委办公厅的办文，发文，办会，通知系统项目中仍使用Eclipse和MyEclipse及相关插件编写组织结构树，上传下载，业务查询等公共模块，办文登记和办会议题登记及管理流程，使用Struts1.1框架技术</p>
 
-<p><b>教育经历</b>
-北华大学工学院</p>
+<p>教育经历
+λ  北华大学工学院</p>
 
 <p>专科 电气工程 2000年毕业</p>
 
-<p>兰州大学网络教育学院</p>
+<p>λ  兰州大学网络教育学院</p>
 
 <p>本科 计算机科学与技术 2004年毕业</p>
 
-<p>个人产品相关链接：</p>
+<p>个人产品相关链接：
 Dorado7 IDE：Dorado7产品集成开发工具
-<p><a href="http://www.bsdn.org/projects/dorado7ide">http://www.bsdn.org/projects/dorado7ide</a></p>
+<a href="http://www.bsdn.org/projects/dorado7ide">http://www.bsdn.org/projects/dorado7ide</a></p>
 
 <p>Dorado5 IDE：Dorado5产品集成开发工具
 <a href="http://www.bsdn.org/projects/dorado5ide">http://www.bsdn.org/projects/dorado5ide</a></p>
@@ -157,9 +159,15 @@ Dorado7 IDE：Dorado7产品集成开发工具
 
 <p>Coding4Git：Coding Git IDEA插件
 <a href="https://mart.coding.net/project/2804">https://mart.coding.net/project/2804</a></p>
-      </section>
-    </div>
+        </section>
 
-    
+        <footer>
+          Resume is maintained by <a href="https://github.com/OuYuBin">OuYuBin</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
   </body>
 </html>
